@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    min-height: 100vh;
+    background-image:url("images/clods.jpg") ;
+    background-repeat: no-repeat;
+    height: 100%;
+ 
+ background-size: cover;
+    
+
+}
+.weather .temp{
+    font-size: larger;
+}
+
+.container{
+    background-color: #000000d0;
+    color: #fff;
+    width: 100%;
+    border-radius: 7px;
+    height: 500px;
+    line-height: 32px;
+    padding: 40px;
+    max-width: 380px;
+    font-size: larger;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+background: #7c7c7c6d;
+}
+input{
+    border: none;
+    outline:none ;
+    padding:  0.5em 1em;
+    border-radius: 18px;
+    background:#7c7c7c2b ;
+    color: rgb(240, 225, 225);
+    width: calc(100%-80px);
+}
+.weather .temp{
+    margin: 17px 0px 10px;
+    
+}
+.weather img{
+    width: 40%;
+    margin-top: 30px;
+}
+.weather.loading{
+    visibility:hidden;
+    
+}
