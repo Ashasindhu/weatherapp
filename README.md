@@ -1,1 +1,1 @@
-# whetherapp
+# weatherapp
